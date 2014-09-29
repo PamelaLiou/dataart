@@ -57,7 +57,7 @@ void draw() {
 
   for (int j = 1; j <widthRes; j++) {
 
-    if (j % 2 == 0) {
+    if (j % (randInt) == 0) {
       for (int i = 1; i < heightRes; i++) {
         //randInt= floor(random(1,10));
         if (i % randInt==0) {
